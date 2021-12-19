@@ -1,0 +1,38 @@
+{
+  "Records": [
+    {
+      "eventVersion": "2.1",
+      "eventSource": "aws:s3",
+      "awsRegion": "eu-west-2",
+      "eventTime": "2021-12-19T09:11:31.954Z",
+      "eventName": "ObjectCreated:Put",
+      "userIdentity": {
+        "principalId": "test"
+      },
+      "requestParameters": {
+        "sourceIPAddress": "test"
+      },
+      "responseElements": {
+        "x-amz-request-id": "test",
+        "x-amz-id-2": "test"
+      },
+      "s3": {
+        "s3SchemaVersion": "1.0",
+        "configurationId": "test",
+        "bucket": {
+          "name": "fake-bucket",
+          "ownerIdentity": {
+            "principalId": "AUSIUU5JN9HBS"
+          },
+          "arn": "arn:aws:s3:::fake-bucket"
+        },
+        "object": {
+          "key": "1.20.2-nginx.zip",
+          "size": 328,
+          "eTag": "test",
+          "sequencer": "test"
+        }
+      }
+    }
+  ]
+}
